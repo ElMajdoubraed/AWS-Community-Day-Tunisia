@@ -49,7 +49,7 @@ $(function() {
     var targets = [
       "#com_info",
       "#ticktes",
-      "#venues",
+      "#itbs",
       "#agenda",
       "#workshop",
       "#sponsors",
@@ -60,7 +60,7 @@ $(function() {
     var text = [
       "About Community Day",
       "Buy Tickets",
-      "Venues",
+      "ITBS Nabeul",
       "Agenda",
       "Workshops",
       "Sponsors",
