@@ -1,6 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Exo");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
 /* line 1, ../sass/shared/_site.scss */
+
+html, body {
+  margin: 0; 
+  height: 100%; 
+}
+
 body {
   background: #eeeeee;
   font-family: "Roboto", sans-serif;
@@ -1049,9 +1055,8 @@ ul.circle li {
 /* line 5, ../sass/shared/_home.scss */
 #page .section .left,
 #page .section .right {
-  position: relative;
   padding: 50px;
-  width: 50%;
+  width: 100%;
 }
 @media only screen and (max-width: 991px) {
   /* line 5, ../sass/shared/_home.scss */
@@ -1169,6 +1174,8 @@ ul.circle li {
     font-size: 15px;
   }
 }
+
+
 /* line 93, ../sass/shared/_home.scss */
 #page .section-1 .content .container > div .right {
   position: relative;
@@ -1184,7 +1191,7 @@ ul.circle li {
 /* line 101, ../sass/shared/_home.scss */
 #page .section-1 .content .container > div .right .gal:after {
   content: "";
-  background: rgba(35, 47, 63, 0.9);
+  background: rgba(35, 47, 63, 0.1);
   position: absolute;
   left: 0;
   top: 0;
