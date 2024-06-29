@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main  # Set this to your default branch
-      - prod
+      # - prod
 
 jobs:
   deploy:
