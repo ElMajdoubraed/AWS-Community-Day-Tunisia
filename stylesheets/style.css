@@ -1074,6 +1074,9 @@ ul.circle li {
 #page .section-1 .content {
   background: #232f3f;
   position: fixed;
+  background-size: 10px 10px;
+  background-image: radial-gradient(circle, #cccccc1e 1px, rgba(0, 0, 0, 0.253) 1px);
+  background-position: center;
   top: 0;
   left: 0;
   right: 0;
@@ -1164,6 +1167,8 @@ ul.circle li {
 #page .section-1 .content .container > div .left_in .txt h4 {
   padding: 0 15px;
   background: #232f3f;
+  background-size: 10px 10px;
+  background-image: radial-gradient(circle, #cccccc1e 1px, rgba(0, 0, 0, 0.253) 1px);
   display: inline-block;
   margin: 0;
   transform: translateY(-60%);
@@ -1531,8 +1536,6 @@ ul.circle li {
 }
 /* line 369, ../sass/shared/_home.scss */
 #page .section-3 .left .headin-ttl {
-  color: #232f3f;
-  color: #232f3f;
   font-size: 30px;
   text-align: center;
 }
