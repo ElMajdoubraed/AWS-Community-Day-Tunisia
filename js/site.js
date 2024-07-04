@@ -1,9 +1,9 @@
-$(function() {
+$(function () {
   tableScroll();
   if ($(window).width() < 996) {
     toastScroll();
   }
-  $(document).on("click", ".scroll", function() {
+  $(document).on("click", ".scroll", function () {
     $("html, body").animate(
       {
         scrollTop: $(window).height() - 70
@@ -11,8 +11,8 @@ $(function() {
       500
     );
   });
-  $(function() {
-    $(document).on("click", ".ven", function() {
+  $(function () {
+    $(document).on("click", ".ven", function () {
       $(this)
         .addClass("active")
         .siblings()
@@ -23,20 +23,14 @@ $(function() {
       console.log(latt + " - " + lngg);
       setCoords(latt, lngg, labb);
     });
-    $(document).on("click", "#toggle", function() {
+    $(document).on("click", "#toggle", function () {
       $(this).toggleClass("on");
       $("#nav-bar").toggleClass("active");
     });
-    $("#link").click(function() {
-      var src = "https://www.youtube.com/embed/t08KFuSgUZE?&autoplay=1&mute=1";
-      $("#myModal").modal("show");
-      $("#myModal iframe").attr("src", src);
-    });
-
-    $("#myModal button").click(function() {
+    $("#myModal button").click(function () {
       $("#myModal iframe").removeAttr("src");
     });
-    $(document).on("click", "#nav-bar ul li", function() {
+    $(document).on("click", "#nav-bar ul li", function () {
       $("#nav-bar").removeClass("active");
       $("#toggle").removeClass("on");
     });
@@ -69,7 +63,7 @@ $(function() {
       "Share"
     ];
     var secidx = 0;
-    $.map(sections, function(val, i) {
+    $.map(sections, function (val, i) {
       if ($(this).scrollTop() > val.offsetTop) {
         secidx = i + 1;
       }
@@ -109,7 +103,7 @@ $(function() {
         .removeClass("fixit");
     }
   }
-  $(document).scroll(function() {
+  $(document).scroll(function () {
     $(".section.hdr > .content").css({
       top: 0 - $(this).scrollTop() / 1.5,
       opacity: 1 - $(this).scrollTop() / $(".section.hdr > .content").height()
@@ -141,7 +135,7 @@ $(function() {
       });
     }
   });
-  $(document).on("click", "a", function(event) {
+  $(document).on("click", "a", function (event) {
     if (this.hash !== "") {
       event.preventDefault();
       var hash = this.hash;
