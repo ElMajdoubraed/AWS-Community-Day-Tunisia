@@ -2280,6 +2280,11 @@ ul.circle li {
   background-image: url(../images/spons/aws.png);
 }
 
+#page .section-5 .sponsors .cats .flex-it .f1>div:not(.head).maibornwolff {
+  background-size: auto 65%;
+  background-image: url(../images/spons/maibornwolff.png);
+}
+
 #page .section-5 .sponsors .cats .flex-it .f1>div:not(.head).radio {
   background-size: auto 65%;
   background-image: url(../images/spons/radio_tv_mega.png);
