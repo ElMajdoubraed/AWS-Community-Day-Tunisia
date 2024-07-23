@@ -906,7 +906,7 @@ ul.circle li {
   display: flex;
   flex-direction: column;
   text-align: left;
-  flex: 0 0 21.25%;
+  flex: 0 0 42.5%;
 }
 
 /* line 454, ../sass/shared/_site.scss */
@@ -2014,7 +2014,7 @@ ul.circle li {
 /* line 531, ../sass/shared/_home.scss */
 #page .section-4 {
   padding: 100px 0;
-  background: #fff;
+  background: red;
   box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(0, 0, 0, 0.4);
 }
 
@@ -2067,7 +2067,12 @@ ul.circle li {
 /* line 565, ../sass/shared/_home.scss */
 #page .section-5 {
   padding: 100px 0 100px;
-  background: #fff;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(0, 0, 0, 0.4);
+}
+
+#page .section-5-1 {
+  padding: 100px 0 100px;
+  background-color: #fff;
   box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(0, 0, 0, 0.4);
 }
 
